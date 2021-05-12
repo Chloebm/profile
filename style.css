@@ -1,0 +1,175 @@
+
+body {
+  background-color: rgb(70, 166, 167);
+  font-family:'Roboto Slab', serif;
+  color: rgb(210, 232, 224);
+  font-size:23px;
+  line-height:30px;
+}
+
+
+.card-first {
+  text-align: center;
+  background: rgb(118, 159, 182);
+  padding: 30px;
+  border: 1px solid;
+  margin: 50px 300px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  border-radius: 30px;
+}
+
+.card-header {
+  text-align: center;
+  background: rgb(68, 151, 171);
+  padding: 30px;
+  border: 1px;
+  margin: 50px 300px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  border-radius: 7px;
+}
+
+.card-panama {
+  text-align: center;
+  background: rgb(68, 151, 171);
+  padding: 30px;
+  border: 1px;
+  margin: 50px 300px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  border-radius: 7px;
+}
+
+.card-middle {
+  text-align: center;
+  background: rgb(68, 151, 171);
+  padding: 30px;
+  border: 1px;
+  border-color: rgb(200, 213, 185);
+  margin: 50px 300px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  border-radius: 7px;
+}
+
+h1 {
+  color: rgb(210, 232, 224);
+  font-size:;
+  font-family:;
+  line-height:
+}
+
+.image-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  object-fit: cover
+
+}
+
+.skyline-img {
+  width: 500px;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover
+}
+
+.btn {
+  background-color: rgb(33, 78, 52);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+.card-second {
+  text-align: center;
+  background: rgb(68, 151, 171);
+  padding: 40px;
+  border: 1px;
+  margin: 50px 300px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  border-radius: 7px;
+}
+
+.list-inline li {
+  list-style-type: none;
+  display: inline;
+  text-align: center;
+}
+
+ul.list-inline {
+  padding-left: 0;
+}
+
+h2 {
+  color:rgb(210, 232, 224);
+  font-size:;
+  font-family:;
+  line-height:
+}
+
+a {
+  color:rgb(145, 129, 138);
+  text-decoration: none;
+}
+
+a:hover {
+  color:rgb(178, 163, 181);
+}
+
+
+.icon-resize {
+  font-size: 50px;
+  padding:10px
+}
+
+.hvr-float-shadow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  background-color: rgb(148, 189, 168);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+
+}
+.hvr-float-shadow:before {
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: '';
+  top: 100%;
+  left: 5%;
+  height: 10px;
+  width: 90%;
+  opacity: 0;
+  background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+  /* W3C */
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform, opacity;
+  transition-property: transform, opacity;
+}
+.hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+  /* move the element up by 5px */
+}
+.hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
+  opacity: 1;
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px);
+  /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
